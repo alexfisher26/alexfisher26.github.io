@@ -1,3 +1,18 @@
-body {
-    background-color:teal;
+#bossy {
+    background-color:#35a7d4;
+
 }
+
+#flexwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vw;
+}
+
+/* .centerimg {
+    position: fixed;
+    left: calc(50vw - 169.5px);
+    top: 50vh;
+} */
