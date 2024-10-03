@@ -111,7 +111,7 @@
     justify-content: center;
     flex-wrap: wrap;  
     width: 100vw;
-    height: 90vh; 
+    height: 80vh; 
 }
 #flexwrapper3 img {
     width: 500px; 
@@ -138,12 +138,24 @@
     justify-content: center;   
     flex-wrap: wrap;            
     width: 100vw;               
-    height: 100vh;             
+    height: 60vh;             
   }
 
   #flexwrapper5 img{
     width: 100vw;
 
+  }
+
+  #flexwrapper6{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #a31536;
   }
   
   
