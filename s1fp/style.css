@@ -220,6 +220,261 @@
     top: 100vh;
     color: white;
   }
+
+  #snail{
+    background-color:#2d5f21 ;
+  }
+
+  #flexwrapper11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper11 img{
+    width: 90vw;
+  }
+
+  #flexwrapper12{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: calc(75vw - 169.5px);
+    top: 30vh;
+    color: #0d2407;
+  }
+
+  #theend{
+   background-color:#35a7d4 ; 
+  }
+
+  #flexwrapper13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    
+}
+
+#flexwrapper13 img {
+  width: 500px;
+}
+
+#flexwrapper14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size:5vw;
+  color: #0e1f6b;
+}
+
+#baloon{
+  background-color: #7296a6;
+}
+
+#flexwrapper15 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  }
+
+  #flexwrapper15 img{
+    width: 700px;
+  }
+
+  #balloon-2{
+    background-color:#607a09 ;
+  }
+
+  #flexwrapper16{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper16 img{
+    width: 90vw;
+  }
+
+  #flexwrapper17{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: calc(60vw - 169.5px);
+    top: 100vh;
+    color: #0d2407;
+  }
+
+
+
+  #balloon-3{
+    background-color:#c57202 ;
+  }
+
+  #flexwrapper18{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper18 img{
+    width: 90vw;
+  }
+
+  #flexwrapper19{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: calc(60vw - 169.5px);
+    top: 100vh;
+    color: #8f5507;
+  }
+
+
+  #balloon-4{
+    background-color:#7e9ea9 ;
+  }
+
+  #flexwrapper20{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper20 img{
+    width: 50vw;
+  }
+
+  #flexwrapper21{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: calc(45vw - 169.5px);
+    top: 90vh;
+    color: #214b59;
+  }
+
+
+
+  #balloon-5{
+    background-color:#3d7816 ;
+  }
+
+  #flexwrapper22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper22 img{
+    width: 50vw;
+  }
+
+  #flexwrapper23{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    left: calc(32vw - 169.5px);
+    top: 70vh;
+    color: #1e4008;
+  }
+
+
+  #balloon-6{
+    background-color:#c07702 ;
+  }
+
+  #flexwrapper24{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper24 img{
+    width: 70vw;
+  }
+
+  #balloon-7{
+    background-color:#b54a6b ;
+  }
+
+  #flexwrapper25{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper24 img{
+    width: 70vw;
+  }
+
+  #balloon-8{
+    background-color:#91a1a0 ;
+  }
+
+  #flexwrapper26{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw; 
+  }
+
+  #flexwrapper26 img{
+    width: 70vw;
+  }
+  
   
 /* .centerimg {
     position: fixed;
