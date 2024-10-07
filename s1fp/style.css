@@ -31,6 +31,7 @@
     font-style: normal;
     font-size:5vw;
     color: #0e1f6b;
+    height:20vh;
   }
   section {
     padding-top: 200px;
@@ -475,7 +476,10 @@
     width: 70vw;
   }
   
+ .webring img{
+  width:5vw;
   
+ }
 /* .centerimg {
     position: fixed;
     left: calc(50vw - 169.5px);
