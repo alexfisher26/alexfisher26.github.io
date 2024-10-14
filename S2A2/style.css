@@ -1,0 +1,81 @@
+#pizza-party {
+    background-color:#a8eddc ;
+}
+
+#pizza{
+    width: 80vw;
+
+}
+
+#pizza-dough{
+    position: absolute; 
+}
+
+#toppings {
+
+    width: 10vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#toppings label img {
+    width: 150%;
+}
+
+#cheesetopping1 {
+    position: absolute;
+    left: 18vw;
+    top: 10vh;
+    opacity: 0;
+}
+
+#cheesetopping1 img{
+    width: 15vw;
+}
+
+#cheese2selector {
+    display: none;
+}
+
+#cheese:checked ~ #pizza-dough > #cheesetopping1 {
+    opacity: 1;
+}
+
+#cheese:checked ~ #toppings > #cheese1selector{
+    display: none;
+}
+
+#cheese:checked ~ #toppings > #cheese2selector{
+    display: block;
+}
+
+#cheese2selector img {
+    width: 10vw;
+}
+
+#cheesetopping2 {
+    position: absolute;
+    left: 45vw;
+    top: 10vh;
+    opacity: 0;
+}
+
+#cheesetopping2 img{
+    width: 15vw;
+}
+
+#cheese2:checked ~ #pizza-dough > #cheesetopping2 {
+    opacity: 1;
+}
+#cheese2:checked ~ #toppings > #cheese2selector{
+    display: none;
+}
+
+.cheeseswap {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
