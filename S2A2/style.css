@@ -3,7 +3,7 @@
 }
 
 #pizza{
-    width: 80vw;
+    width: 60vw;
 
 }
 
@@ -25,8 +25,8 @@
 
 #cheesetopping1 {
     position: absolute;
-    left: 18vw;
-    top: 10vh;
+    left: 12vw;
+    top: 25vh;
     opacity: 0;
 }
 
@@ -51,13 +51,13 @@
 }
 
 #cheese2selector img {
-    width: 10vw;
+    width: 15vw;
 }
 
 #cheesetopping2 {
     position: absolute;
-    left: 45vw;
-    top: 10vh;
+    left: 33vw;
+    top: 25vh;
     opacity: 0;
 }
 
@@ -74,8 +74,8 @@
 
 .cheeseswap {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 7vh;
+    right: 5vw;
 }
 
 #cheese3selector {
@@ -100,8 +100,8 @@
 
 #cheesetopping3 {
     position: absolute;
-    left: 18vw;
-    top: 19vh;
+    left: 12vw;
+    top: 57vh;
     opacity: 0;
 }
 
@@ -142,8 +142,8 @@
 
 #cheesetopping4 {
     position: absolute;
-    left: 45vw;
-    top: 19vh;
+    left: 33vw;
+    top: 57vh;
     opacity: 0;
 }
 
