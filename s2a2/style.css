@@ -1,3 +1,7 @@
+input {
+    opacity: 0;
+}
+
 #pizza-party {
     background-color:#a8eddc ;
 }
@@ -19,14 +23,15 @@
     right: 0;
 }
 
-#toppings label img {
-    width: 150%;
+
+#cheese1selector img {
+    width: 15vw;
 }
 
 #cheesetopping1 {
     position: absolute;
     left: 12vw;
-    top: 25vh;
+    top: 12vw;
     opacity: 0;
 }
 
@@ -57,7 +62,7 @@
 #cheesetopping2 {
     position: absolute;
     left: 33vw;
-    top: 25vh;
+    top: 12vw;
     opacity: 0;
 }
 
@@ -95,13 +100,13 @@
 }
 
 #cheese3selector img {
-    width: 10vw;
+    width: 15vw;
 }
 
 #cheesetopping3 {
     position: absolute;
     left: 12vw;
-    top: 57vh;
+    top: 33vw;
     opacity: 0;
 }
 
@@ -115,9 +120,6 @@
 #cheese3:checked ~ #toppings > #cheese3selector{
     display: none;
 }
-
-
-
 
 
 #cheese4selector {
@@ -137,13 +139,13 @@
 }
 
 #cheese4selector img {
-    width: 10vw;
+    width: 15vw;
 }
 
 #cheesetopping4 {
     position: absolute;
     left: 33vw;
-    top: 57vh;
+    top: 33vw;
     opacity: 0;
 }
 
@@ -159,3 +161,826 @@
 }
 
 
+/* BELLPEPPER */
+
+
+.bellpepperswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+}
+
+#bellpepper1selector {
+    display: none;
+}
+
+
+#bellpepper1selector img {
+    width: 15vw;
+}
+
+#bellpeppertopping1 {
+    position: absolute;
+    left: 14vw;
+    top: 25vw;
+    opacity: 0;
+}
+
+#bellpeppertopping1 img{
+    width: 8vw;
+}
+
+#cheese4:checked ~ #toppings > #bellpepper1selector{
+    display: block;
+}
+
+#bellpepper1:checked ~ #pizza-dough > #bellpeppertopping1 {
+    opacity: 1;
+}
+
+#bellpepper1:checked ~ #toppings > #bellpepper1selector{
+    display: none;
+}
+
+#bellpepper1:checked ~ #toppings > #bellpepper2selector{
+    display: block;
+}
+
+#bellpepper2selector {
+    display: none;
+}
+#bellpepper2selector img {
+    width: 15vw;
+}
+
+#bellpeppertopping2 {
+    position: absolute;
+    left: 38vw;
+    top: 25vw;
+    opacity: 0;
+}
+
+#bellpeppertopping2 img{
+    width: 8vw;
+}
+
+#bellpepper2:checked ~ #pizza-dough > #bellpeppertopping2 {
+    opacity: 1;
+}
+#bellpepper2:checked ~ #toppings > #bellpepper2selector{
+    display: none;
+}
+
+
+
+
+
+
+#bellpepper2:checked ~ #toppings > #bellpepper3selector{
+    display: block;
+}
+
+#bellpepper3selector {
+    display: none;
+}
+#bellpepper3selector img {
+    width: 15vw;
+}
+
+#bellpeppertopping3 {
+    position: absolute;
+    left: 12vw;
+    top: 33vw;
+    opacity: 0;
+}
+
+#bellpeppertopping3 img{
+    width: 15vw;
+}
+
+#bellpepper3:checked ~ #pizza-dough > #bellpeppertopping3 {
+    opacity: 1;
+}
+#bellpepper3:checked ~ #toppings > #bellpepper3selector{
+    display: none;
+}
+
+
+#bellpepper3:checked ~ #toppings > #bellpepper4selector{
+    display: block;
+}
+
+#bellpepper4selector {
+    display: none;
+}
+#bellpepper4selector img {
+    width: 15vw;
+}
+
+#bellpeppertopping4 {
+    position: absolute;
+    left: 30vw;
+    top: 33vw;
+    opacity: 0;
+}
+
+#bellpeppertopping4 img{
+    width: 15vw;
+}
+
+#bellpepper4:checked ~ #pizza-dough > #bellpeppertopping4 {
+    opacity: 1;
+}
+#bellpepper4:checked ~ #toppings > #bellpepper4selector{
+    display: none;
+}
+
+
+
+
+
+
+/* MUSHROOM */
+
+
+
+
+
+.mushroomswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+}
+
+#mushroom1selector {
+    display: none;
+}
+
+
+#mushroom1selector img {
+    width: 15vw;
+}
+
+#mushroomtopping1 {
+    position: absolute;
+    left: 25vw;
+    top: 5vw;
+    opacity: 0;
+}
+
+#mushroomtopping1 img{
+    width: 10vw;
+}
+
+#bellpepper4:checked ~ #toppings > #mushroom1selector{
+    display: block;
+}
+
+#mushroom1:checked ~ #pizza-dough > #mushroomtopping1 {
+    opacity: 1;
+}
+
+#mushroom1:checked ~ #toppings > #mushroom1selector{
+    display: none;
+}
+
+#mushroom1:checked ~ #toppings > #mushroom2selector{
+    display: block;
+}
+
+#mushroom2selector {
+    display: none;
+}
+#mushroom2selector img {
+    width: 15vw;
+}
+
+#mushroomtopping2 {
+    position: absolute;
+    left: 46vw;
+    top: 25vw;
+    opacity: 0;
+}
+
+#mushroomtopping2 img{
+    width: 10vw;
+}
+
+#mushroom2:checked ~ #pizza-dough > #mushroomtopping2 {
+    opacity: 1;
+}
+#mushroom2:checked ~ #toppings > #mushroom2selector{
+    display: none;
+}
+
+
+
+#mushroom2:checked ~ #toppings > #mushroom3selector{
+    display: block;
+}
+
+#mushroom3selector {
+    display: none;
+}
+#mushroom3selector img {
+    width: 15vw;
+}
+
+#mushroomtopping3 {
+    position: absolute;
+    left: 25vw;
+    top: 47vw;
+    opacity: 0;
+}
+
+#mushroomtopping3 img{
+    width: 10vw;
+}
+
+#mushroom3:checked ~ #pizza-dough > #mushroomtopping3 {
+    opacity: 1;
+}
+#mushroom3:checked ~ #toppings > #mushroom3selector{
+    display: none;
+}
+
+
+#mushroom3:checked ~ #toppings > #mushroom4selector{
+    display: block;
+}
+
+#mushroom4selector {
+    display: none;
+}
+#mushroom4selector img {
+    width: 15vw;
+}
+
+#mushroomtopping4 {
+    position: absolute;
+    left: 4vw;
+    top: 25vw;
+    opacity: 0;
+}
+
+#mushroomtopping4 img{
+    width: 10vw;
+}
+
+#mushroom4:checked ~ #pizza-dough > #mushroomtopping4 {
+    opacity: 1;
+}
+#mushroom4:checked ~ #toppings > #mushroom4selector{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* TOMA */
+
+
+.tomaswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+ }
+ 
+ 
+ #toma1selector {
+    display: none;
+ }
+ 
+ 
+ 
+ #toma1selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #tomatopping1 {
+    position: absolute;
+    left: 12vw;
+    top: 12vw;
+    opacity: 0;
+ }
+ 
+ 
+ #tomatopping1 img{
+    width: 15vw;
+ }
+ 
+ 
+ #mushroom4:checked ~ #toppings > #toma1selector{
+    display: block;
+ }
+ 
+ 
+ #toma1:checked ~ #pizza-dough > #tomatopping1 {
+    opacity: 1;
+ }
+ 
+ 
+ #toma1:checked ~ #toppings > #toma1selector{
+    display: none;
+ }
+ 
+ 
+ #toma1:checked ~ #toppings > #toma2selector{
+    display: block;
+ }
+ 
+ 
+ #toma2selector {
+    display: none;
+ }
+ #toma2selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #tomatopping2 {
+    position: absolute;
+    left: 30vw;
+    top: 12vw;
+    opacity: 0;
+ }
+ 
+ 
+ #tomatopping2 img{
+    width: 15vw;
+ }
+ 
+ 
+ #toma2:checked ~ #pizza-dough > #tomatopping2 {
+    opacity: 1;
+ }
+ #toma2:checked ~ #toppings > #toma2selector{
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #toma2:checked ~ #toppings > #toma3selector{
+    display: block;
+ }
+ 
+ 
+ #toma3selector {
+    display: none;
+ }
+ #toma3selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #tomatopping3 {
+    position: absolute;
+    left: 12vw;
+    top: 33vw;
+    opacity: 0;
+ }
+ 
+ 
+ #tomatopping3 img{
+    width: 15vw;
+ }
+ 
+ 
+ #toma3:checked ~ #pizza-dough > #tomatopping3 {
+    opacity: 1;
+ }
+ #toma3:checked ~ #toppings > #toma3selector{
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ #toma3:checked ~ #toppings > #toma4selector{
+    display: block;
+ }
+ 
+ 
+ #toma4selector {
+    display: none;
+ }
+ #toma4selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #tomatopping4 {
+    position: absolute;
+    left: 30vw;
+    top: 33vw;
+    opacity: 0;
+ }
+ 
+ 
+ #tomatopping4 img{
+    width: 15vw;
+ }
+ 
+ 
+ #toma4:checked ~ #pizza-dough > #tomatopping4 {
+    opacity: 1;
+ }
+ #toma4:checked ~ #toppings > #toma4selector{
+    display: none;
+ }
+
+
+
+
+
+/* PEPPERONI */
+ 
+
+.pepperoniswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+ }
+ 
+ 
+ #pepperoni1selector {
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ #pepperoni1selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #pepperonitopping1 {
+    position: absolute;
+    left: 8vw;
+    top: 14vw;
+    opacity: 0;
+ }
+ 
+ 
+ #pepperonitopping1 img{
+    width: 10vw;
+ }
+ 
+ 
+ #toma4:checked ~ #toppings > #pepperoni1selector{
+    display: block;
+ }
+ 
+ 
+ #pepperoni1:checked ~ #pizza-dough > #pepperonitopping1 {
+    opacity: 1;
+ }
+ 
+ 
+ #pepperoni1:checked ~ #toppings > #pepperoni1selector{
+    display: none;
+ }
+ 
+ 
+ #pepperoni1:checked ~ #toppings > #pepperoni2selector{
+    display: block;
+ }
+ 
+ 
+ #pepperoni2selector {
+    display: none;
+ }
+ #pepperoni2selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #pepperonitopping2 {
+    position: absolute;
+    left: 43vw;
+    top: 14vw;
+    opacity: 0;
+ }
+ 
+ 
+ #pepperonitopping2 img{
+    width: 10vw;
+ }
+ 
+ 
+ #pepperoni2:checked ~ #pizza-dough > #pepperonitopping2 {
+    opacity: 1;
+ }
+ #pepperoni2:checked ~ #toppings > #pepperoni2selector{
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #pepperoni2:checked ~ #toppings > #pepperoni3selector{
+    display: block;
+ }
+ 
+ 
+ #pepperoni3selector {
+    display: none;
+ }
+ #pepperoni3selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #pepperonitopping3 {
+    position: absolute;
+    left: 8vw;
+    top: 36vw;
+    opacity: 0;
+ }
+ 
+ 
+ #pepperonitopping3 img{
+    width: 10vw;
+ }
+ 
+ 
+ #pepperoni3:checked ~ #pizza-dough > #pepperonitopping3 {
+    opacity: 1;
+ }
+ #pepperoni3:checked ~ #toppings > #pepperoni3selector{
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ #pepperoni3:checked ~ #toppings > #pepperoni4selector{
+    display: block;
+ }
+ 
+ 
+ #pepperoni4selector {
+    display: none;
+ }
+ #pepperoni4selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #pepperonitopping4 {
+    position: absolute;
+    left: 43vw;
+    top: 36vw;
+    opacity: 0;
+ }
+ 
+ 
+ #pepperonitopping4 img{
+    width: 10vw;
+ }
+ 
+ 
+ #pepperoni4:checked ~ #pizza-dough > #pepperonitopping4 {
+    opacity: 1;
+ }
+ #pepperoni4:checked ~ #toppings > #pepperoni4selector{
+    display: none;
+ }
+ 
+
+
+
+
+
+
+
+
+
+ /* olive */
+
+ .oliveswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+ }
+ 
+ 
+ #olive1selector {
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ #olive1selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #olivetopping1 {
+    position: absolute;
+    left: 19vw;
+    top:6vw;
+    opacity: 0;
+ }
+ 
+ 
+ #olivetopping1 img{
+    width: 5vw;
+ }
+ 
+ 
+ #pepperoni4:checked ~ #toppings > #olive1selector{
+    display: block;
+ }
+ 
+ 
+ #olive1:checked ~ #pizza-dough > #olivetopping1 {
+    opacity: 1;
+ }
+ 
+ 
+ #olive1:checked ~ #toppings > #olive1selector{
+    display: none;
+ }
+ 
+ 
+ #olive1:checked ~ #toppings > #olive2selector{
+    display: block;
+ }
+ 
+ 
+ #olive2selector {
+    display: none;
+ }
+ #olive2selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #olivetopping2 {
+    position: absolute;
+    left: 35vw;
+    top: 6vw;
+    opacity: 0;
+ }
+ 
+ 
+ #olivetopping2 img{
+    width: 5vw;
+ }
+ 
+ 
+ #olive2:checked ~ #pizza-dough > #olivetopping2 {
+    opacity: 1;
+ }
+ #olive2:checked ~ #toppings > #olive2selector{
+    display: none;
+ }
+ 
+ 
+ 
+ #olive2:checked ~ #toppings > #olive3selector{
+    display: block;
+ }
+ 
+ 
+ #olive3selector {
+    display: none;
+ }
+ #olive3selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #olivetopping3 {
+    position: absolute;
+    left: 19vw;
+    top: 49vw;
+    opacity: 0;
+ }
+ 
+ 
+ #olivetopping3 img{
+    width: 5vw;
+ }
+ 
+ 
+ #olive3:checked ~ #pizza-dough > #olivetopping3 {
+    opacity: 1;
+ }
+ #olive3:checked ~ #toppings > #olive3selector{
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ #olive3:checked ~ #toppings > #olive4selector{
+    display: block;
+ }
+ 
+ 
+ #olive4selector {
+    display: none;
+ }
+ #olive4selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #olivetopping4 {
+    position: absolute;
+    left: 35vw;
+    top: 49vw;
+    opacity: 0;
+ }
+ 
+ 
+ #olivetopping4 img{
+    width: 5vw;
+ }
+ 
+ 
+ #olive4:checked ~ #pizza-dough > #olivetopping4 {
+    opacity: 1;
+ }
+ #olive4:checked ~ #toppings > #olive4selector{
+    display: none;
+ }
+
+
+
+
+
+
+
+ .mintswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+ }
+ 
+ 
+ #mint1selector {
+    display: none;
+ }
+ 
+ 
+ 
+ 
+ #mint1selector img {
+    width: 15vw;
+ }
+ 
+ 
+ #minttopping1 {
+    position: absolute;
+    left: 20vw;
+    top:21vw;
+    opacity: 0;
+ }
+ 
+ 
+ #minttopping1 img{
+    width: 20vw;
+ }
+ 
+ 
+ #olive4:checked ~ #toppings > #mint1selector{
+    display: block;
+ }
+ 
+ 
+ #mint1:checked ~ #pizza-dough > #minttopping1 {
+    opacity: 1;
+ }
+ 
+ 
+ #mint1:checked ~ #toppings > #mint1selector{
+    display: none;
+ }
+ 
