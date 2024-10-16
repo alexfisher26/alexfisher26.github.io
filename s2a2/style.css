@@ -1,0 +1,161 @@
+#pizza-party {
+    background-color:#a8eddc ;
+}
+
+#pizza{
+    width: 60vw;
+
+}
+
+#pizza-dough{
+    position: absolute; 
+}
+
+#toppings {
+    width: 10vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#toppings label img {
+    width: 150%;
+}
+
+#cheesetopping1 {
+    position: absolute;
+    left: 12vw;
+    top: 25vh;
+    opacity: 0;
+}
+
+#cheesetopping1 img{
+    width: 15vw;
+}
+
+#cheese2selector {
+    display: none;
+}
+
+#cheese1:checked ~ #pizza-dough > #cheesetopping1 {
+    opacity: 1;
+}
+
+#cheese1:checked ~ #toppings > #cheese1selector{
+    display: none;
+}
+
+#cheese1:checked ~ #toppings > #cheese2selector{
+    display: block;
+}
+
+#cheese2selector img {
+    width: 15vw;
+}
+
+#cheesetopping2 {
+    position: absolute;
+    left: 33vw;
+    top: 25vh;
+    opacity: 0;
+}
+
+#cheesetopping2 img{
+    width: 15vw;
+}
+
+#cheese2:checked ~ #pizza-dough > #cheesetopping2 {
+    opacity: 1;
+}
+#cheese2:checked ~ #toppings > #cheese2selector{
+    display: none;
+}
+
+.cheeseswap {
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+}
+
+#cheese3selector {
+    display: none;
+}
+
+#cheese2:checked ~ #pizza-dough > #cheesetopping2 {
+    opacity: 1;
+}
+
+#cheese2:checked ~ #toppings > #cheese2selector{
+    display: none;
+}
+
+#cheese2:checked ~ #toppings > #cheese3selector{
+    display: block;
+}
+
+#cheese3selector img {
+    width: 10vw;
+}
+
+#cheesetopping3 {
+    position: absolute;
+    left: 12vw;
+    top: 57vh;
+    opacity: 0;
+}
+
+#cheesetopping3 img{
+    width: 15vw;
+}
+
+#cheese3:checked ~ #pizza-dough > #cheesetopping3 {
+    opacity: 1;
+}
+#cheese3:checked ~ #toppings > #cheese3selector{
+    display: none;
+}
+
+
+
+
+
+#cheese4selector {
+    display: none;
+}
+
+#cheese3:checked ~ #pizza-dough > #cheesetopping3 {
+    opacity: 1;
+}
+
+#cheese3:checked ~ #toppings > #cheese3selector{
+    display: none;
+}
+
+#cheese3:checked ~ #toppings > #cheese4selector{
+    display: block;
+}
+
+#cheese4selector img {
+    width: 10vw;
+}
+
+#cheesetopping4 {
+    position: absolute;
+    left: 33vw;
+    top: 57vh;
+    opacity: 0;
+}
+
+#cheesetopping4 img{
+    width: 15vw;
+}
+
+#cheese4:checked ~ #pizza-dough > #cheesetopping4 {
+    opacity: 1;
+}
+#cheese4:checked ~ #toppings > #cheese4selector{
+    display: none;
+}
+
+
