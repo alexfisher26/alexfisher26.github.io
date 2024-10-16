@@ -249,13 +249,13 @@ input {
 
 #bellpeppertopping3 {
     position: absolute;
-    left: 12vw;
-    top: 33vw;
+    left: 14vw;
+    top: 41vw;
     opacity: 0;
 }
 
 #bellpeppertopping3 img{
-    width: 15vw;
+    width: 8vw;
 }
 
 #bellpepper3:checked ~ #pizza-dough > #bellpeppertopping3 {
@@ -285,7 +285,7 @@ input {
 }
 
 #bellpeppertopping4 img{
-    width: 15vw;
+    width: 8vw;
 }
 
 #bellpepper4:checked ~ #pizza-dough > #bellpeppertopping4 {
@@ -464,14 +464,14 @@ input {
  
  #tomatopping1 {
     position: absolute;
-    left: 12vw;
-    top: 12vw;
+    left: 15vw;
+    top: 14vw;
     opacity: 0;
  }
  
  
  #tomatopping1 img{
-    width: 15vw;
+    width: 13vw;
  }
  
  
@@ -512,7 +512,7 @@ input {
  
  
  #tomatopping2 img{
-    width: 15vw;
+    width: 13vw;
  }
  
  
@@ -549,14 +549,14 @@ input {
  
  #tomatopping3 {
     position: absolute;
-    left: 12vw;
+    left: 18vw;
     top: 33vw;
     opacity: 0;
  }
  
  
  #tomatopping3 img{
-    width: 15vw;
+    width: 13vw;
  }
  
  
@@ -585,14 +585,14 @@ input {
  
  #tomatopping4 {
     position: absolute;
-    left: 30vw;
-    top: 33vw;
+    left: 35vw;
+    top: 37vw;
     opacity: 0;
  }
  
  
  #tomatopping4 img{
-    width: 15vw;
+    width: 13vw;
  }
  
  
@@ -716,8 +716,8 @@ input {
  
  #pepperonitopping3 {
     position: absolute;
-    left: 8vw;
-    top: 36vw;
+    left: 7vw;
+    top: 34vw;
     opacity: 0;
  }
  
@@ -752,8 +752,8 @@ input {
  
  #pepperonitopping4 {
     position: absolute;
-    left: 43vw;
-    top: 36vw;
+    left: 45vw;
+    top: 33vw;
     opacity: 0;
  }
  
