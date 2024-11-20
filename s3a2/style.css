@@ -4,6 +4,7 @@ html,body {
 }
 
 #background { 
+    /* transform: scale(1vw); */
 position: relative;
 margin-left:calc(50vw - 760px);
 width: 1520px;
