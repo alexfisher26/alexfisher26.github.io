@@ -1,10 +1,13 @@
-
+html,body {
+    margin:0;
+    background: linear-gradient(180deg, #4A84C8 0%, #7B809B 35.5%, #B27B68 54.5%, #EE7531 77%);
+}
 
 #background { 
 position: relative;
+margin-left:calc(50vw - 760px);
 width: 1520px;
 height: 8171px;
-background: linear-gradient(180deg, #4A84C8 0%, #7B809B 35.5%, #B27B68 54.5%, #EE7531 77%);
 }
 
 
@@ -161,7 +164,7 @@ top: 4139px;
 position: absolute;
 width: 694px;
 height: 585px;
-left: 324px;
+left: 395px;
 top: 6309px;
 }
 
@@ -176,13 +179,11 @@ top: 5646px;
 
 #smile
 {
-
-
 position: absolute;
 width: 432px;
 height: 432px;
-left: 1040.96px;
-top: 7459px;
+left: 1000px;
+top: 7550px;
 
 transform: rotate(7.58deg);
 
