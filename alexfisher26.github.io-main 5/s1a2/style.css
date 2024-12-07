@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color:#c2f0eb;
+  overflow: hidden;
+ 
+}
+
+#boxshadow {
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  position: absolute;
+  bottom: 95px;
+  right: 330px;
+  transform: rotate(45deg) skew(-20deg);
+  filter: blur(30px);
+}
+
+#cdshadow {
+  position: absolute;
+  top: 40;
+  right: -140px;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+}
+
+#boxtop {
+  width: 200px;
+  height: 300px;
+  background-color: #FF6961;
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+  transform: rotate(45deg) skew(-20deg);
+/*   box-shadow: 10px 10px 10px; */
+}
+
+#booktitle {
+  color: white;
+  font-size:70px;
+  font-family: "Lugrasimo";
+  font-weight: 200;
+  font-style: normal;
+  position: absolute; 
+  bottom: 20px; 
+  left: 10px; 
+  padding: 10px 20px;
+  transition: color 0.3s ease; 
+}
+
+#booktitle:hover {
+ background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;}
+
+
+#mixtape {
+  width: 50px;
+  height: 90px;
+  background-color: #5c5a5a;
+  position: absolute;
+  bottom: 37px;
+  right: 390px;
+  transform: rotate(45deg) skew(-20deg);
+}
+
+
+#whiteside{
+  height: 30px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform-origin: bottom right;
+  transform: rotate(90deg) skew(-40deg);
+/*   transform: skew(40deg); */
+}
+
+#redside{
+height: 30px;
+  width: 200px;
+  background-color:#b5463e;
+  position: absolute;
+  bottom: -30px;
+  right: -38px;
+  transform-origin: bottom right;
+  transform: rotate(0deg) skew(53deg);  
+  
+}
+
+#line {
+  height: 150px;
+  width: 3px;
+  background-color: black;
+  position: absolute;
+  bottom: 50px;
+  right: 97px; 
+  transform: rotate(70deg) skew(-20deg);
+}
+
+#cd{
+  width: 100px;
+  height: 140px;
+  background-color:#292626;
+  position: absolute;
+  bottom: 150px;
+  right: 200px;
+  transform: rotate(70deg) skew(-10deg); animation: bounceCD 2s ease-in-out infinite;
+}
+
+#disc {
+  background-color: blue;
+  background-image: linear-gradient(350deg, #a2e1f2,#73a4d9, blue);
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+ animation: spinDisc 3s linear infinite;
+}
+
+@keyframes bounceCD {
+  0%, 100% {
+    transform: translateY(0) rotate(70deg) skew(-10deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(70deg) skew(-10deg);
+  }
+}
+#ladder{
+  position: absolute;
+  width: 150px;
+  height: 200px;
+/*   background-color: red; */
+  top: 320px;
+  left: 100px;
+  transform: rotate(50deg) skew(5deg);
+  filter: drop-shadow(5px 2px 0px #997f54);
+}
+
+.hrung {
+  z-index: 100;
+  width: 100%;
+  height: 20px;
+  background-color: tan;
+  margin-bottom: 10px;
+}
+
+.vrung{
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  background-color: tan;
+  left: 65px;
+}
+
+.ladderside {
+  z-index: 1;
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  background-color:tan;
+  left: 140px;
+  bottom: 0px;
+  
+}
+.ladderside2 {
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  background-color:tan;
+  left: 0px;
+  bottom: 0px;  
+  
+}
+#centerdisc{ 
+position: absolute;
+  background-color: #292626;
+  left: 36%;
+  top: 35%;
+  width: 25%;
+  height: 25%;
+  border-radius: 90%;
+}
+
+#bottle{
+  position: absolute;
+  width: 30px;
+  height: 70px;
+  background-color: #694425;
+  border-radius: 50px 50px 30px 30px; 
+  margin: 100px auto;
+  left: 300px; 
+  top: 150px;  
+}
+
+.bottlecap{
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  width: 30px;
+  height: 20px; 
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+#cdprint {
+  color: black;
+  font-size: 5px;
+  position: absolute; 
+  bottom: 45px; 
+  left: 20px; 
+}
+
+#cdcursive{
+  color: #e4e8ed;
+  font-size: 45px;
+  position: absolute; 
+  bottom: 7px; 
+  left: 40px; 
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#cdredbox{
+  background-color: #f53a2c;
+  width: 20px;
+  height: 45px; 
+  left: 40px; 
+  bottom: 85px; 
+  position: absolute; 
+  transform: rotate(90deg) skew(5deg);
+  border-radius: 5px;
+}
+
+#taylorporktop{ 
+  width: 90px;
+  height: 100px;
+  background-color:pink;
+  position: absolute;
+  bottom: 330px;
+  right: 310px;
+}
+ 
+#bottlelable{
+  width: 30px; 
+  height: 30px;
+  position:absolute;
+  top: 25px;
+  background-color: #69a8f0;
+}
+
+#mixtapeside1{
+  height: 16px;
+  width: 50px;
+  background-color:black;
+  position: absolute;
+  top: 520px;
+  left: 324px;
+  transform-origin: top left;
+  transform: rotate(45deg) skew(45deg);
+/*   transform: skew(40deg);   */
+}
+
+#mixtapeside2 {
+  background-color: #5c5a5a;
+  width: 96px;
+  height: 20px;
+  position: absolute;
+  top: 556px;
+  left: 359px;
+  transform-origin: top left;
+  transform: rotate(-25deg) skew(-25deg);
+}
+
+#taylorporkcircle {
+  background-color: white;
+  position: absolute;
+  left: 410px;
+  top: 185px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+#porkrolltitle{
+    width: 50px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 6px solid rgb(54, 51, 51);
+    position: absolute;
+    top: 180px;
+    left: 420px;
+    line-height: 30px;
+}
+
+#tpbar1{
+  width:10px;
+  position: absolute;
+  height:4px;
+  top:188px;
+  left: 413px; 
+  background-color:#302d2d;
+}
+
+#tpbar2{
+  width:9px;
+  position: absolute;
+  height:4px;
+  top:195px;
+  left: 413px; 
+  background-color:#302d2d;
+  transform-origin: top left;
+  transform: rotate(-20deg) skew(0deg); 
+}
+
+#tpbar3{
+  width:9px;
+  position: absolute;
+  height:4px;
+  top:181.5px;
+  left: 413px; 
+  background-color:#302d2d;
+  transform-origin: top left;
+  transform: rotate(20deg) skew(0deg); 
+}
+
+#porkrollname{
+   top: 210px;
+   left: 416px;
+   position: absolute;
+   color: red; 
+   font-size: 11px; 
+}
+
+#mixtapegreen {
+ width: 20px;
+  height: 50px;
+  background-color: #639651;
+  position: absolute;
+  bottom: 65px;
+  right: 410px;
+  transform: rotate(45deg) skew(-20deg) 
+}
+
+#button1{
+  width: 10px;  
+  height: 10px; 
+  background-color: #8a8c89; 
+  border-radius: 50%; 
+  margin: 100px auto; 
+  position: absolute; 
+  right: 10px; 
+  top: -45px;
+}
