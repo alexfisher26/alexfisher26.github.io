@@ -5,6 +5,24 @@ padding: 0;
 overflow: hidden; 
 width: 100%;
 height: 100%;}
+/*    */
+.dropdown a, #dropdown a:link, #dropdown a:active, #dropdown a:target {
+    color: #17646B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.twinkle a, #twinkle a:link, #twinkle a:active, #twinkle a:target {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 #blob {
 background: #17646B;
@@ -233,8 +251,8 @@ color: #FFFFFF;}
 position: absolute;
 width: 1779px;
 height: 241px;
-left: 470px;
-top: -160px;
+left: 580px;
+top: 100px;
 font-family: 'Julius Sans One';
 font-style: normal;
 font-weight: 400;
@@ -251,8 +269,8 @@ justify-content: center;
 flex-wrap: wrap; 
 width: 473px;
 height: 445px;
-left: 380px;
-top: 30px;}
+left: 460px;
+top: 270px;}
 
 
 #blob2text{
@@ -278,8 +296,10 @@ justify-content: center;
 flex-wrap: wrap; 
 width: 481px;
 height: 410px;
-left: 540px;
-top: 10px;}
+left: 985px;
+top: 300px;
+
+}
 
 
 #blob3text{
@@ -319,7 +339,7 @@ flex-wrap: wrap;
 width: 418px;
 height: 576.5px;
 left: 64px;
-top: 200px;}
+top: 240px;}
 
 #blob4text{
 position: absolute;
@@ -335,6 +355,20 @@ line-height: 42px;
 text-align: center;
 color: #FFFFFF;}
 
+#extratext{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 65px;
+    top: 150px; 
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;}
+
 
 #flexwrapper11 {
 display: flex;
@@ -344,8 +378,8 @@ justify-content: center;
 flex-wrap: wrap; 
 width: 483px;
 height: 534px;
-left: 450px;
-top: 50px;}
+left: 530px;
+top: 270px;}
 
 #blob5text{
 left: 0px;
@@ -370,8 +404,10 @@ justify-content: center;
 flex-wrap: wrap; 
 width: 415px;
 height: 609px;
-left: 510px;
-top: -40px;}
+left: 1039px;
+top: 200px;}
+
+
 
 
 #blob6text{
@@ -531,7 +567,85 @@ top: 2780px;
 
 }
 
+#week5{
+position: absolute;
+width: 1992px;
+height: 1654px;
+left: 86px;
+top: 3954px;
+}
 
+
+#week6{
+position: absolute;
+width: 2256px;
+height: 1593px;
+left: 76px;
+top: 5678px;
+}
+
+#week8{
+position: absolute;
+width: 1364px;
+height: 1126px;
+left: 77px;
+top: 7400px;}
+
+
+#week9{
+position: absolute;
+width: 1454px;
+height: 1330px;
+left: 44px;
+top: 8509px;  
+}
+
+
+#week10{
+position: absolute;
+width: 1367px;
+height: 1654px;
+left: 86px;
+top: 9988px;
+}
+
+#week12{
+position: absolute;
+width: 1336px;
+height: 1527px;
+left: 88px;
+top: 11776px;
+}
+
+#week13{
+position: absolute;
+width: 1369px;
+height: 2159px;
+left: 70px;
+top: 13395px;
+
+ 
+}
+
+#week14{
+position: absolute;
+width: 1377.06px;
+height: 1682px;
+left: 62px;
+top: 15658px;
+
+
+}
+
+#week15{
+position: absolute;
+width: 1454px;
+height: 1356px;
+left: 17px;
+top: 17489px;
+
+
+}
 
             
             
